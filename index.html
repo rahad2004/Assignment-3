@@ -92,7 +92,7 @@
         <div class="carousel w-full">
           <div
             id="slide1"
-            class="carousel-item relative w-full h-[550px] object-cover"
+            class="carousel-item relative w-full h-[350px] lg:h-[550px] object-cover"
           >
             <img src="Images/1.png" class="w-full" />
             <div
@@ -104,7 +104,7 @@
           </div>
           <div
             id="slide2"
-            class="carousel-item relative w-full h-[550px] object-cover"
+            class="carousel-item relative w-full h-[350px] lg:h-[550px] object-cover"
           >
             <img src="Images/banner 2.avif" class="w-full" />
             <div
@@ -115,10 +115,7 @@
             </div>
           </div>
           <div id="slide3" class="carousel-item relative w-full">
-            <img
-              src="Images/banner 3.jpg"
-              class="w-full h-[550px] object-cover"
-            />
+            <img src="Images/banner 3.jpg" class="w-full h-[350px] lg:h-[550px] object-cover" />
             <div
               class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
             >
@@ -128,12 +125,9 @@
           </div>
           <div
             id="slide4"
-            class="carousel-item relative w-full h-[550px] object-cover"
+            class="carousel-item relative w-full h-[350px] lg:h-[550px] object-cover"
           >
-            <img
-              src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
-              class="w-full"
-            />
+            <img src="Images/banner 4.jpg" class="w-full" />
             <div
               class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
             >
@@ -264,7 +258,7 @@
                 amet nunc morbi nulla. Tortor congue sed et in.
               </p>
               <button
-                class="btn w-[50%] lg:btn-wide bg-[#FF4240] border-hidden text-white text-lg lg:text-xl"
+                class="btn w-[50%] lg:btn-wide bg-[#FF4240] border-hidden text-white text-base lg:text-xl"
               >
                 Register Now!
               </button>
@@ -283,7 +277,7 @@
               morbi nulla. Tortor congue sed et in.
             </p>
             <button
-              class="btn w-[50%] lg:btn-wide bg-[#FF4240] border-hidden text-white text-lg lg:text-xl"
+              class="btn w-[50%] lg:btn-wide bg-[#FF4240] border-hidden text-white text-base lg:text-xl"
             >
               Register Now!
             </button>
@@ -301,7 +295,7 @@
               morbi nulla. Tortor congue sed et in.
             </p>
             <button
-              class="btn w-[50%] lg:w-[25%] bg-[#FF4240] border-hidden text-white text-lg lg:text-xl"
+              class="btn w-[50%] lg:w-[25%] bg-[#FF4240] border-hidden text-white text-base lg:text-xl"
             >
               Register Now!
             </button>
@@ -664,27 +658,27 @@
       </section>
       <!-- contact container -->
       <section
-        class="container mx-auto px-4 lg:px-8 mb-[48px] grid grid-cols-1 lg:grid-cols-3 items-center gap-8"
+        class="container mx-auto px-4 lg:px-8 mb-[48px] grid grid-cols-1 lg:grid-cols-3 items-center gap-8 h-full"
       >
         <div
           class="flex flex-col gap-8 border-2 border-[#1313181A] p-[50px] rounded-2xl lg:col-span-1"
         >
-          <div class="bg-[#BCED6D1A] rounded-2xl p-8 space-y-4">
-            <img class="mb-8" src="Images/Group 1171275317.png" alt="" />
+          <div class="bg-[#BCED6D1A] rounded-2xl p-6 space-y-4 flex-1">
+            <img src="Images/Group 1171275317.png" alt="" />
             <p class="text-[#13131866]">Phone Number :</p>
             <h2 class="text-[#131318] text-xl font-extrabold">
               (+62) 123-321-543
             </h2>
           </div>
-          <div class="bg-[#BCED6D1A] rounded-2xl p-8 space-y-4">
-            <img class="mb-8" src="Images/Group 1171275318.png" alt="" />
+          <div class="bg-[#BCED6D1A] rounded-2xl p-6 space-y-4 flex-1">
+            <img src="Images/Group 1171275318.png" alt="" />
             <p class="text-[#13131866]">Email :</p>
-            <h2 class="text-[#131318] text-xl font-extrabold">
-              hockeys@support.com
-            </h2>
+            <p class="text-[#131318] text-xl font-extrabold">
+              hockeys @ support.com
+            </p>
           </div>
-          <div class="bg-[#BCED6D1A] rounded-2xl p-8 space-y-4">
-            <img class="mb-8" src="Images/Group 1171275321.png" alt="" />
+          <div class="bg-[#BCED6D1A] rounded-2xl p-6 space-y-4 flex-1">
+            <img src="Images/Group 1171275321.png" alt="" />
             <p class="text-[#13131866]">Location :</p>
             <h2 class="text-[#131318] text-xl font-extrabold">
               152/1 Mohakhali Wireless Gate
@@ -753,7 +747,9 @@
             </div>
           </div>
         </div>
-        <div class="lg:col-span-3 bg-[#13131808] text-center w-full rounded-xl py-10 space-y-4">
+        <div
+          class="lg:col-span-3 bg-[#13131808] text-center w-full rounded-xl py-10 space-y-4"
+        >
           <h2 class="text-[#131318] text-2xl font-extrabold">Social Media</h2>
           <div class="flex gap-7 justify-center items-center">
             <a href=""><i class="fa-brands fa-facebook"></i></a>
@@ -766,5 +762,55 @@
         </div>
       </section>
     </main>
+    <footer
+      class="bg-[#131318] p-[135px] grid grid-cols-2 lg:grid-cols-4 md:grid-cols-4 gap-8 justify-center"
+    >
+      <div class="text-center space-y-4 lg:text-start col-span-2 lg:col-span-1">
+        <h2 class="text-[18px] text-white font-bold">Get In Touch</h2>
+        <p class="text-[#FFFFFF99]">
+          Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat
+          dolor. Purus urna in sit nullam proin.
+        </p>
+        <p class="text-[#FFFFFF99]">
+          <i class="fa-regular fa-message text-[#FF4240]"></i>
+          hockeys@support.com
+        </p>
+        <p class="text-[#FFFFFF99]">
+          <i class="fa-solid fa-phone text-[#FF4240]"></i> (+62) 123-321-543
+        </p>
+      </div>
+
+      <div class="space-y-4 col-span-1">
+        <h2 class="text-[18px] text-white font-bold">Company</h2>
+        <div class="flex flex-col gap-4 text-[#FFFFFF99]">
+          <a href="">About us</a>
+          <a href="">Leadership </a>
+          <a href="">Careers</a>
+          <a href="">News & Article</a>
+          <a href="">Legal</a>
+          <a href="">Notice</a>
+        </div>
+      </div>
+      <div class="space-y-4 col-span-1">
+        <h2 class="text-[18px] text-white font-bold">Support</h2>
+        <div class="flex flex-col gap-4 text-[#FFFFFF99]">
+          <a href="">Help Center </a>
+          <a href="">FAQ </a>
+          <a href="">Ticket Support</a>
+          <a href="">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="space-y-6 text-center lg:text-start col-span-2 lg:col-span-1">
+        <h2 class="text-[18px] text-white font-bold">Services</h2>
+        <div class="flex flex-col gap-4 text-[#FFFFFF99]">
+          <a href="">Academy </a>
+          <a href="">Group Lesson </a>
+          <a href="">Private Lesson</a>
+          <a href="">Hockeys for kids</a>
+          <a href="">Hockeys for Adult</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
